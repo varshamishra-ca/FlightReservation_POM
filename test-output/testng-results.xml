@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37559" started-at="2019-04-12T01:50:05Z" finished-at="2019-04-12T01:50:43Z">
+  <suite name="Suite" duration-ms="125398" started-at="2019-04-12T02:50:36Z" finished-at="2019-04-12T02:52:42Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="37559" started-at="2019-04-12T01:50:05Z" finished-at="2019-04-12T01:50:43Z">
+    <test name="Test" duration-ms="125398" started-at="2019-04-12T02:50:36Z" finished-at="2019-04-12T02:52:42Z">
       <class name="testcases.ExecuteTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="setUp" is-config="true" duration-ms="7489" started-at="2019-04-12T07:20:05Z" finished-at="2019-04-12T07:20:13Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="setUp" is-config="true" duration-ms="8735" started-at="2019-04-12T08:20:36Z" finished-at="2019-04-12T08:20:45Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="9" started-at="2019-04-12T07:20:13Z" finished-at="2019-04-12T07:20:13Z">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="9" started-at="2019-04-12T08:20:45Z" finished-at="2019-04-12T08:20:45Z">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="launchFlightReservationApplication()[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="launchFlightReservationApplication" duration-ms="9974" started-at="2019-04-12T07:20:13Z" finished-at="2019-04-12T07:20:23Z">
+        <test-method status="PASS" signature="launchFlightReservationApplication()[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="launchFlightReservationApplication" duration-ms="3913" started-at="2019-04-12T08:20:45Z" finished-at="2019-04-12T08:20:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchFlightReservationApplication -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="5" started-at="2019-04-12T07:20:23Z" finished-at="2019-04-12T07:20:23Z">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="9" started-at="2019-04-12T08:20:49Z" finished-at="2019-04-12T08:20:49Z">
           <params>
             <param index="0">
               <value>
@@ -44,11 +44,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="loginToFlightReservation()[pri:1, instance:testcases.ExecuteTest@3ecf72fd]" name="loginToFlightReservation" duration-ms="9191" started-at="2019-04-12T07:20:23Z" finished-at="2019-04-12T07:20:32Z">
+        <test-method status="PASS" signature="loginToFlightReservation()[pri:1, instance:testcases.ExecuteTest@3ecf72fd]" name="loginToFlightReservation" duration-ms="101538" started-at="2019-04-12T08:20:49Z" finished-at="2019-04-12T08:22:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToFlightReservation -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="1" started-at="2019-04-12T07:20:32Z" finished-at="2019-04-12T07:20:32Z">
+        <test-method status="PASS" signature="bookATicket()[pri:2, instance:testcases.ExecuteTest@3ecf72fd]" name="bookATicket" duration-ms="8986" started-at="2019-04-12T08:22:30Z" finished-at="2019-04-12T08:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookATicket -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="0" started-at="2019-04-12T08:22:30Z" finished-at="2019-04-12T08:22:30Z">
           <params>
             <param index="0">
               <value>
@@ -59,11 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="bookATicket()[pri:2, instance:testcases.ExecuteTest@3ecf72fd]" name="bookATicket" duration-ms="8763" started-at="2019-04-12T07:20:32Z" finished-at="2019-04-12T07:20:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookATicket -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="tearDown" is-config="true" duration-ms="2095" started-at="2019-04-12T07:20:41Z" finished-at="2019-04-12T07:20:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="tearDown" is-config="true" duration-ms="2164" started-at="2019-04-12T08:22:39Z" finished-at="2019-04-12T08:22:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

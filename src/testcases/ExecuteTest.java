@@ -141,12 +141,12 @@ public class ExecuteTest {
 		}
 	}
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void testFail() {
 		Assert.assertFalse(true);
 	}
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void testSKip() {
 		throw new SkipException("The test got skipped as it was not ready to be executed");
 	}
