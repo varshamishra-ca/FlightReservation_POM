@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37559" started-at="2019-04-12T01:50:05Z" finished-at="2019-04-12T01:50:43Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37559" started-at="2019-04-12T01:50:05Z" finished-at="2019-04-12T01:50:43Z">
+      <class name="testcases.ExecuteTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="setUp" is-config="true" duration-ms="7489" started-at="2019-04-12T07:20:05Z" finished-at="2019-04-12T07:20:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="9" started-at="2019-04-12T07:20:13Z" finished-at="2019-04-12T07:20:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ExecuteTest.launchFlightReservationApplication() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="launchFlightReservationApplication()[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="launchFlightReservationApplication" duration-ms="9974" started-at="2019-04-12T07:20:13Z" finished-at="2019-04-12T07:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFlightReservationApplication -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="5" started-at="2019-04-12T07:20:23Z" finished-at="2019-04-12T07:20:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ExecuteTest.loginToFlightReservation() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="loginToFlightReservation()[pri:1, instance:testcases.ExecuteTest@3ecf72fd]" name="loginToFlightReservation" duration-ms="9191" started-at="2019-04-12T07:20:23Z" finished-at="2019-04-12T07:20:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFlightReservation -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="1" started-at="2019-04-12T07:20:32Z" finished-at="2019-04-12T07:20:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ExecuteTest.bookATicket() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="bookATicket()[pri:2, instance:testcases.ExecuteTest@3ecf72fd]" name="bookATicket" duration-ms="8763" started-at="2019-04-12T07:20:32Z" finished-at="2019-04-12T07:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookATicket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="tearDown" is-config="true" duration-ms="2095" started-at="2019-04-12T07:20:41Z" finished-at="2019-04-12T07:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ExecuteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

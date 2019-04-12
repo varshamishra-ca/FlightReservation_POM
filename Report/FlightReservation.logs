@@ -1,0 +1,32 @@
+12/04/2019 07:20:23 devpinoyLogger Entering 'mercury' in the 'UserName' edit field
+12/04/2019 07:20:23 devpinoyLogger Entered 'mercury' in the 'UserName' edit field
+12/04/2019 07:20:23 devpinoyLogger Entering 'mercury' in the 'Password' edit field
+12/04/2019 07:20:24 devpinoyLogger Entered 'mercury' in the 'Password' edit field
+12/04/2019 07:20:24 devpinoyLogger Clicking on 'Sign-In'
+12/04/2019 07:20:31 devpinoyLogger Clicked on 'Sign-In'
+12/04/2019 07:20:32 devpinoyLogger Verifying presence of 'One Way' trip type
+12/04/2019 07:20:32 devpinoyLogger Verified presence of 'One Way' trip type
+12/04/2019 07:20:32 devpinoyLogger Clicking on 'One Way' trip type
+12/04/2019 07:20:32 devpinoyLogger Clicked on 'One Way' trip type
+12/04/2019 07:20:32 devpinoyLogger Selecting 'London' from the 'Departing From' drop down
+12/04/2019 07:20:33 devpinoyLogger Selected 'London' from the 'Departing From' drop down
+12/04/2019 07:20:33 devpinoyLogger Selecting 'Paris from 'Arriving In' drop down
+12/04/2019 07:20:33 devpinoyLogger Selected 'Paris from 'Arriving In' drop down
+12/04/2019 07:20:33 devpinoyLogger Clicking on 'First' class preference
+12/04/2019 07:20:33 devpinoyLogger Clicked on 'First' class preference
+12/04/2019 07:20:33 devpinoyLogger Selecting 'Blue Skies Airlines' from 'Airline Preference' drop down
+12/04/2019 07:20:34 devpinoyLogger Selected 'Blue Skies Airlines' from 'Airline Preference' drop down
+12/04/2019 07:20:34 devpinoyLogger Clicking on 'Find Flights'
+12/04/2019 07:20:35 devpinoyLogger Clicked on 'Find Flights'
+12/04/2019 07:20:35 devpinoyLogger Clicking on 'Reserve Flights'
+12/04/2019 07:20:37 devpinoyLogger Clicked on 'Reserve Flights'
+12/04/2019 07:20:37 devpinoyLogger Entering 'Barsha' in the 'First Name' edit field
+12/04/2019 07:20:37 devpinoyLogger Entered 'Barsha' in the 'First Name' edit field
+12/04/2019 07:20:37 devpinoyLogger Entering 'Mishra' in the 'Last Name' edit field
+12/04/2019 07:20:37 devpinoyLogger Entered 'Mishra' in the 'Last Name' edit field
+12/04/2019 07:20:37 devpinoyLogger Entering '8483573489575' in the 'Credit Number' edit field
+12/04/2019 07:20:38 devpinoyLogger Entered '8483573489575' in the 'Credit Number' edit field
+12/04/2019 07:20:38 devpinoyLogger Clicking on 'SECURE PURCHASE'
+12/04/2019 07:20:38 devpinoyLogger Clicked on 'SECURE PURCHASE'
+12/04/2019 07:20:41 devpinoyLogger Fetching Booking Confirmation Text
+12/04/2019 07:20:41 devpinoyLogger Fetched Booking Confirmation Text
