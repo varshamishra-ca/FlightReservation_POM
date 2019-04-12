@@ -8,4 +8,18 @@
       <class name="testcases.ExecuteTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.ExecuteTest">
+        <methods>
+          <include name="testFail"/>
+          <include name="tearDown"/>
+          <include name="testSKip"/>
+          <include name="getMethodName"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.ExecuteTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

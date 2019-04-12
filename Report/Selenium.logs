@@ -1,78 +1,80 @@
-08:20:49,395  INFO devpinoyLogger<strong>{1}</strong>:32 - Entering 'mercury' in the 'UserName' edit field
-08:20:49,784  INFO devpinoyLogger<strong>{1}</strong>:36 - Entered 'mercury' in the 'UserName' edit field
-08:20:49,785  INFO devpinoyLogger<strong>{1}</strong>:45 - Entering 'mercury' in the 'Password' edit field
-08:20:50,143  INFO devpinoyLogger<strong>{1}</strong>:49 - Entered 'mercury' in the 'Password' edit field
-08:20:50,144  INFO devpinoyLogger<strong>{1}</strong>:58 - Clicking on 'Sign-In'
-08:22:30,271  INFO devpinoyLogger<strong>{1}</strong>:61 - Clicked on 'Sign-In'
-08:22:30,857  INFO devpinoyLogger<strong>{1}</strong>:42 - Verifying presence of 'One Way' trip type
-08:22:30,931  INFO devpinoyLogger<strong>{1}</strong>:49 - Verified presence of 'One Way' trip type
-08:22:30,933  INFO devpinoyLogger<strong>{1}</strong>:56 - Clicking on 'One Way' trip type
-08:22:31,105  INFO devpinoyLogger<strong>{1}</strong>:59 - Clicked on 'One Way' trip type
-08:22:31,106  INFO devpinoyLogger<strong>{1}</strong>:69 - Selecting 'London' from the 'Departing From' drop down
-08:22:31,551  INFO devpinoyLogger<strong>{1}</strong>:73 - Selected 'London' from the 'Departing From' drop down
-08:22:31,552  INFO devpinoyLogger<strong>{1}</strong>:83 - Selecting 'Paris from 'Arriving In' drop down
-08:22:31,900  INFO devpinoyLogger<strong>{1}</strong>:87 - Selected 'Paris from 'Arriving In' drop down
-08:22:31,901  INFO devpinoyLogger<strong>{1}</strong>:96 - Clicking on 'First' class preference
-08:22:32,236  INFO devpinoyLogger<strong>{1}</strong>:99 - Clicked on 'First' class preference
-08:22:32,242  INFO devpinoyLogger<strong>{1}</strong>:109 - Selecting 'Blue Skies Airlines' from 'Airline Preference' drop down
-08:22:32,835  INFO devpinoyLogger<strong>{1}</strong>:113 - Selected 'Blue Skies Airlines' from 'Airline Preference' drop down
-08:22:32,836  INFO devpinoyLogger<strong>{1}</strong>:122 - Clicking on 'Find Flights'
-08:22:34,363  INFO devpinoyLogger<strong>{1}</strong>:125 - Clicked on 'Find Flights'
-08:22:34,363  INFO devpinoyLogger<strong>{1}</strong>:27 - Clicking on 'Reserve Flights'
-08:22:36,310  INFO devpinoyLogger<strong>{1}</strong>:30 - Clicked on 'Reserve Flights'
-08:22:36,311  INFO devpinoyLogger<strong>{1}</strong>:33 - Entering 'Barsha' in the 'First Name' edit field
-08:22:36,785  INFO devpinoyLogger<strong>{1}</strong>:36 - Entered 'Barsha' in the 'First Name' edit field
-08:22:36,785  INFO devpinoyLogger<strong>{1}</strong>:44 - Entering 'Mishra' in the 'Last Name' edit field
-08:22:37,115  INFO devpinoyLogger<strong>{1}</strong>:47 - Entered 'Mishra' in the 'Last Name' edit field
-08:22:37,115  INFO devpinoyLogger<strong>{1}</strong>:55 - Entering '8483573489575' in the 'Credit Number' edit field
-08:22:37,699  INFO devpinoyLogger<strong>{1}</strong>:58 - Entered '8483573489575' in the 'Credit Number' edit field
-08:22:37,700  INFO devpinoyLogger<strong>{1}</strong>:67 - Clicking on 'SECURE PURCHASE'
-08:22:37,810  INFO devpinoyLogger<strong>{1}</strong>:69 - Clicked on 'SECURE PURCHASE'
-08:22:39,755  INFO devpinoyLogger<strong>{1}</strong>:23 - Fetching Booking Confirmation Text
-08:22:39,916  INFO devpinoyLogger<strong>{1}</strong>:30 - Fetched Booking Confirmation Text
-08:22:40,020 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
-08:22:40,022 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
-08:22:40,026 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
-08:22:40,027 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
-08:22:40,672 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
-08:22:40,674 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
-08:22:40,675 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
-08:22:40,675 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
-08:22:40,687 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
-08:22:40,688 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
-08:22:40,688 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
-08:22:40,689 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
-08:22:40,723 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
-08:22:40,727 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
-08:22:40,728 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
-08:22:40,729 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
-08:22:40,760 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-08:22:40,760 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
-08:22:40,761 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
-08:22:40,761 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
-08:22:40,822 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
-08:22:40,823 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
-08:22:40,824 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
-08:22:40,824 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
-08:22:40,877 DEBUG freemarker.cache<strong>{1}</strong>:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-08:22:40,890 DEBUG freemarker.cache<strong>{1}</strong>:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-08:22:40,892 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
-08:22:40,892 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
-08:22:40,892 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
-08:22:40,893 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
-08:22:40,902 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
-08:22:40,903 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
-08:22:40,903 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
-08:22:40,903 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
-08:22:40,952 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-08:22:40,993 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
-08:22:41,019 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
-08:22:41,021 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
-08:22:41,026 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-08:22:41,055 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
-08:22:41,059 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
-08:22:41,059 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
-08:22:41,123 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-08:22:41,125 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
-08:22:41,126 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
-08:22:41,126 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+08:31:30,318  INFO devpinoyLogger<strong>{1}</strong>:32 - Entering 'mercury' in the 'UserName' edit field
+08:31:30,815  INFO devpinoyLogger<strong>{1}</strong>:36 - Entered 'mercury' in the 'UserName' edit field
+08:31:30,815  INFO devpinoyLogger<strong>{1}</strong>:45 - Entering 'mercury' in the 'Password' edit field
+08:31:31,210  INFO devpinoyLogger<strong>{1}</strong>:49 - Entered 'mercury' in the 'Password' edit field
+08:31:31,210  INFO devpinoyLogger<strong>{1}</strong>:58 - Clicking on 'Sign-In'
+08:33:32,311  INFO devpinoyLogger<strong>{1}</strong>:61 - Clicked on 'Sign-In'
+08:33:32,948  INFO devpinoyLogger<strong>{1}</strong>:42 - Verifying presence of 'One Way' trip type
+08:33:33,040  INFO devpinoyLogger<strong>{1}</strong>:49 - Verified presence of 'One Way' trip type
+08:33:33,042  INFO devpinoyLogger<strong>{1}</strong>:56 - Clicking on 'One Way' trip type
+08:33:33,229  INFO devpinoyLogger<strong>{1}</strong>:59 - Clicked on 'One Way' trip type
+08:33:33,231  INFO devpinoyLogger<strong>{1}</strong>:69 - Selecting 'London' from the 'Departing From' drop down
+08:33:33,604  INFO devpinoyLogger<strong>{1}</strong>:73 - Selected 'London' from the 'Departing From' drop down
+08:33:33,605  INFO devpinoyLogger<strong>{1}</strong>:83 - Selecting 'Paris from 'Arriving In' drop down
+08:33:33,964  INFO devpinoyLogger<strong>{1}</strong>:87 - Selected 'Paris from 'Arriving In' drop down
+08:33:33,965  INFO devpinoyLogger<strong>{1}</strong>:96 - Clicking on 'First' class preference
+08:33:34,204  INFO devpinoyLogger<strong>{1}</strong>:99 - Clicked on 'First' class preference
+08:33:34,206  INFO devpinoyLogger<strong>{1}</strong>:109 - Selecting 'Blue Skies Airlines' from 'Airline Preference' drop down
+08:33:34,541  INFO devpinoyLogger<strong>{1}</strong>:113 - Selected 'Blue Skies Airlines' from 'Airline Preference' drop down
+08:33:34,542  INFO devpinoyLogger<strong>{1}</strong>:122 - Clicking on 'Find Flights'
+08:33:35,851  INFO devpinoyLogger<strong>{1}</strong>:125 - Clicked on 'Find Flights'
+08:33:35,851  INFO devpinoyLogger<strong>{1}</strong>:27 - Clicking on 'Reserve Flights'
+08:33:37,841  INFO devpinoyLogger<strong>{1}</strong>:30 - Clicked on 'Reserve Flights'
+08:33:37,842  INFO devpinoyLogger<strong>{1}</strong>:33 - Entering 'Barsha' in the 'First Name' edit field
+08:33:38,324  INFO devpinoyLogger<strong>{1}</strong>:36 - Entered 'Barsha' in the 'First Name' edit field
+08:33:38,324  INFO devpinoyLogger<strong>{1}</strong>:44 - Entering 'Mishra' in the 'Last Name' edit field
+08:33:38,670  INFO devpinoyLogger<strong>{1}</strong>:47 - Entered 'Mishra' in the 'Last Name' edit field
+08:33:38,670  INFO devpinoyLogger<strong>{1}</strong>:55 - Entering '8483573489575' in the 'Credit Number' edit field
+08:33:39,270  INFO devpinoyLogger<strong>{1}</strong>:58 - Entered '8483573489575' in the 'Credit Number' edit field
+08:33:39,271  INFO devpinoyLogger<strong>{1}</strong>:67 - Clicking on 'SECURE PURCHASE'
+08:33:39,334  INFO devpinoyLogger<strong>{1}</strong>:69 - Clicked on 'SECURE PURCHASE'
+08:33:41,413  INFO devpinoyLogger<strong>{1}</strong>:23 - Fetching Booking Confirmation Text
+08:33:41,584  INFO devpinoyLogger<strong>{1}</strong>:30 - Fetched Booking Confirmation Text
+08:33:41,640 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+08:33:41,641 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+08:33:41,644 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+08:33:41,645 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+08:33:42,266 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+08:33:42,267 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+08:33:42,267 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+08:33:42,267 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+08:33:42,276 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+08:33:42,277 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+08:33:42,277 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+08:33:42,278 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+08:33:42,306 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+08:33:42,308 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+08:33:42,308 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+08:33:42,315 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+08:33:42,366 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+08:33:42,367 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+08:33:42,368 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+08:33:42,368 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+08:33:42,435 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+08:33:42,436 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+08:33:42,437 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+08:33:42,437 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+08:33:42,577 DEBUG freemarker.cache<strong>{1}</strong>:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+08:33:42,579 DEBUG freemarker.cache<strong>{1}</strong>:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+08:33:42,583 DEBUG freemarker.cache<strong>{1}</strong>:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+08:33:42,590 DEBUG freemarker.cache<strong>{1}</strong>:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+08:33:42,599 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+08:33:42,600 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+08:33:42,601 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+08:33:42,601 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+08:33:42,614 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+08:33:42,615 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+08:33:42,616 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+08:33:42,616 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+08:33:42,685 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+08:33:42,691 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+08:33:42,695 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+08:33:42,696 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+08:33:42,704 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+08:33:42,705 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+08:33:42,705 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+08:33:42,706 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+08:33:42,760 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+08:33:42,763 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+08:33:42,764 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+08:33:42,765 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Selenium/Workspace/FlightReservation(POM)/libs/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

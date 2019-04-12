@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="1" failed="1" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="125398" started-at="2019-04-12T02:50:36Z" finished-at="2019-04-12T02:52:42Z">
+  <suite name="Suite" duration-ms="145096" started-at="2019-04-12T03:01:18Z" finished-at="2019-04-12T03:03:43Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="125398" started-at="2019-04-12T02:50:36Z" finished-at="2019-04-12T02:52:42Z">
+    <test name="Test" duration-ms="145096" started-at="2019-04-12T03:01:18Z" finished-at="2019-04-12T03:03:43Z">
       <class name="testcases.ExecuteTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="setUp" is-config="true" duration-ms="8735" started-at="2019-04-12T08:20:36Z" finished-at="2019-04-12T08:20:45Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="setUp" is-config="true" duration-ms="8051" started-at="2019-04-12T08:31:18Z" finished-at="2019-04-12T08:31:26Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="9" started-at="2019-04-12T08:20:45Z" finished-at="2019-04-12T08:20:45Z">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="9" started-at="2019-04-12T08:31:26Z" finished-at="2019-04-12T08:31:26Z">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,115 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="launchFlightReservationApplication()[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="launchFlightReservationApplication" duration-ms="3913" started-at="2019-04-12T08:20:45Z" finished-at="2019-04-12T08:20:49Z">
+        <test-method status="PASS" signature="launchFlightReservationApplication()[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="launchFlightReservationApplication" duration-ms="3607" started-at="2019-04-12T08:31:26Z" finished-at="2019-04-12T08:31:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchFlightReservationApplication -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="9" started-at="2019-04-12T08:20:49Z" finished-at="2019-04-12T08:20:49Z">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="6" started-at="2019-04-12T08:31:30Z" finished-at="2019-04-12T08:31:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ExecuteTest.testFail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="FAIL" signature="testFail()[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="testFail" duration-ms="4" started-at="2019-04-12T08:31:30Z" finished-at="2019-04-12T08:31:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at testcases.ExecuteTest.testFail(ExecuteTest.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFail -->
+        <test-method status="SKIP" signature="testSKip()[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="testSKip" duration-ms="1" started-at="2019-04-12T08:31:30Z" finished-at="2019-04-12T08:31:30Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[The test got skipped as it was not ready to be executed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: The test got skipped as it was not ready to be executed
+	at testcases.ExecuteTest.testSKip(ExecuteTest.java:151)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSKip -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="0" started-at="2019-04-12T08:31:30Z" finished-at="2019-04-12T08:31:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ExecuteTest.testSKip()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="loginToFlightReservation()[pri:1, instance:testcases.ExecuteTest@3ecf72fd]" name="loginToFlightReservation" duration-ms="122724" started-at="2019-04-12T08:31:30Z" finished-at="2019-04-12T08:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFlightReservation -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="0" started-at="2019-04-12T08:31:30Z" finished-at="2019-04-12T08:31:30Z">
           <params>
             <param index="0">
               <value>
@@ -44,15 +148,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="loginToFlightReservation()[pri:1, instance:testcases.ExecuteTest@3ecf72fd]" name="loginToFlightReservation" duration-ms="101538" started-at="2019-04-12T08:20:49Z" finished-at="2019-04-12T08:22:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToFlightReservation -->
-        <test-method status="PASS" signature="bookATicket()[pri:2, instance:testcases.ExecuteTest@3ecf72fd]" name="bookATicket" duration-ms="8986" started-at="2019-04-12T08:22:30Z" finished-at="2019-04-12T08:22:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookATicket -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="0" started-at="2019-04-12T08:22:30Z" finished-at="2019-04-12T08:22:30Z">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="getMethodName" is-config="true" duration-ms="0" started-at="2019-04-12T08:33:33Z" finished-at="2019-04-12T08:33:33Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +159,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="tearDown" is-config="true" duration-ms="2164" started-at="2019-04-12T08:22:39Z" finished-at="2019-04-12T08:22:42Z">
+        <test-method status="PASS" signature="bookATicket()[pri:2, instance:testcases.ExecuteTest@3ecf72fd]" name="bookATicket" duration-ms="8543" started-at="2019-04-12T08:33:33Z" finished-at="2019-04-12T08:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookATicket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.ExecuteTest@3ecf72fd]" name="tearDown" is-config="true" duration-ms="2122" started-at="2019-04-12T08:33:41Z" finished-at="2019-04-12T08:33:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

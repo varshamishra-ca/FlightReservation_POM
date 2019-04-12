@@ -143,12 +143,21 @@ public class ExecuteTest {
 	
 	@Test(enabled=true)
 	public void testFail() {
+		try {
 		Assert.assertFalse(true);
+		extentLogger.log(Status.PASS,"Assertion got passed");
+		}catch(Exception ex) {
+			extentLogger.log(Status.FAIL,"Assertion got failed");
+		}
 	}
 	
 	@Test(enabled=true)
 	public void testSKip() {
+		try {
 		throw new SkipException("The test got skipped as it was not ready to be executed");
+		}catch(Exception ex){
+			extentLogger.log(Status.SKIP, "test got skipped");
+		}
 	}
 	
 	@Test(priority=2)

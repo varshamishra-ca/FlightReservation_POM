@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,  1 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.ExecuteTest" hash-for-method="testFail">testFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.ExecuteTest" hash-for-method="testSKip">testSKip</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -127,6 +155,44 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.ExecuteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFail">
+                  </a> <!-- testFail -->
+                  <span class="method-name">testFail</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testcases.ExecuteTest.testFail(ExecuteTest.java:146)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.ExecuteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSKip">
+                  </a> <!-- testSKip -->
+                  <span class="method-name">testSKip</span>
+                  <div class="stack-trace">org.testng.SkipException: The test got skipped as it was not ready to be executed
+	at testcases.ExecuteTest.testSKip(ExecuteTest.java:151)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -209,24 +275,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginToFlightReservation')
 data.setCell(0, 2, 'testcases.ExecuteTest')
-data.setCell(0, 3, 101538);
+data.setCell(0, 3, 122724);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'bookATicket')
 data.setCell(1, 2, 'testcases.ExecuteTest')
-data.setCell(1, 3, 8986);
+data.setCell(1, 3, 8543);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'launchFlightReservationApplication')
 data.setCell(2, 2, 'testcases.ExecuteTest')
-data.setCell(2, 3, 3913);
+data.setCell(2, 3, 3607);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testFail')
+data.setCell(3, 2, 'testcases.ExecuteTest')
+data.setCell(3, 3, 4);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSKip')
+data.setCell(4, 2, 'testcases.ExecuteTest')
+data.setCell(4, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -241,18 +315,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.ExecuteTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">testFail</span>
-                <br/>
-                <span class="ignored-method-name">testSKip</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -268,31 +333,49 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">getMethodName(public void testcases.ExecuteTest.launchFlightReservationApplication() throws java.io.IOException)</span>
-                <span class="method-start">8769 ms</span>
+                <span class="method-start">8072 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">launchFlightReservationApplication</span>
-                <span class="method-start">8778 ms</span>
+                <span class="method-start">8081 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName(public void testcases.ExecuteTest.testFail())</span>
+                <span class="method-start">11689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFail</span>
+                <span class="method-start">11695 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName(public void testcases.ExecuteTest.testSKip())</span>
+                <span class="method-start">11699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSKip</span>
+                <span class="method-start">11699 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">getMethodName(public void testcases.ExecuteTest.loginToFlightReservation() throws java.io.IOException)</span>
-                <span class="method-start">12693 ms</span>
+                <span class="method-start">11701 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginToFlightReservation</span>
-                <span class="method-start">12702 ms</span>
+                <span class="method-start">11701 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">bookATicket</span>
-                <span class="method-start">114241 ms</span>
+                <span class="method-start">134426 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">getMethodName(public void testcases.ExecuteTest.bookATicket() throws java.io.IOException)</span>
-                <span class="method-start">114241 ms</span>
+                <span class="method-start">134426 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">123232 ms</span>
+                <span class="method-start">142971 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
